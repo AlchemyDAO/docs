@@ -1,2 +1,2 @@
-# docs
-Documentation for AlchemyDAO
+# Initial page
+

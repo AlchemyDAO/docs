@@ -1,4 +1,4 @@
 # Introduction
 
-Alchemy lets users take any NFTs that meet the ERC721 standard \(almost all\) and create a Decentralized Autonomous Organization which owns the underlying NFT\(s\). The DAO is controlled by the DAO’s governance tokens, able to be freely traded and transferred, creating liquid markets for ownership. All tokens are worth 1 vote each, and so owning a token gives you both governance rights letting you vote on what to do with the NFTs and claim rights for NFT sales.
+Alchemy is a project designed to completely change the way we think about non-fungible asset ownership. By creating ERC20 GovernorAlpha based DAOs that wrap any NFTs into fungible and liquid tokens, Alchemy allows people to sell partial ownership, create collectives for collections and turn illiquid assets into liquid ones.
 

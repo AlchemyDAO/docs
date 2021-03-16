@@ -4,7 +4,7 @@
 
 ## Protocol
 
-* [Untitled](protocol/untitled.md)
+* [How It Works](protocol/howitworks.md)
 
 ## Smart Contracts
 

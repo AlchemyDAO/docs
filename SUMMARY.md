@@ -1,4 +1,12 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction](README.md)
+
+## Protocol
+
+* [Untitled](protocol/untitled.md)
+
+## Smart Contracts
+
+* [Untitled](smart-contracts/untitled.md)
 

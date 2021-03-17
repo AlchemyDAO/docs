@@ -8,7 +8,7 @@ The DAO is controlled by the DAO’s governance tokens, able to be freely traded
 
 #### Buyouts
 
-NFTs can be purchased from the DAO directly by simply transferring the ETH buyout for that NFT to the contract, purchasing the NFT from the DAO. The price for each and every NFT can be set to any value by the NFT allowing for targeted prices while keeping the governance token value as the collective value for all NFTs.
+NFTs can be purchased from the DAO directly by simply transferring the ETH buyout for that NFT to the contract, purchasing the NFT from the DAO. The price for each and every NFT can be set to any value by the NFT DAO allowing for targeted prices while keeping the governance token value as the collective value for all NFTs.
 
 The DAO can also set a buyout price for the whole DAO to be purchased. Allowing for speculators to purchase and hold ownership in collections then profit by selling the collection for more later.
 

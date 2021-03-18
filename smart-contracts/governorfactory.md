@@ -10,6 +10,8 @@ There is a fixed amount needed to propose which is set at 1% of the total supply
 function init(address timelock_) external
 ```
 
+This function is called to set up the Governor contract with the matching timelock contract.
+
 
 
 ### `propose`
@@ -17,6 +19,10 @@ function init(address timelock_) external
 ```text
 function propose(address[] memory targets, uint[] memory values, string[] memory signatures, bytes[] memory calldatas, string memory description) public
 ```
+
+Function that lets users create a proposal.
+
+Takes the targets, values, function signatures, and the calldatas for the contract calls as well as a description.
 
 
 
@@ -26,6 +32,8 @@ function propose(address[] memory targets, uint[] memory values, string[] memory
 function queue(uint proposalId) public
 ```
 
+This function is used to queue a proposal after it was successful.
+
 
 
 ### `_queueOrRevert`
@@ -33,6 +41,8 @@ function queue(uint proposalId) public
 ```text
 function _queueOrRevert(address target, uint value, string memory signature, bytes memory data, uint eta)
 ```
+
+Internal function that either queues a proposal or cancels it.
 
 
 
@@ -42,9 +52,7 @@ function _queueOrRevert(address target, uint value, string memory signature, byt
 function execute(uint proposalId) public payable
 ```
 
-
-
-
+The actual execute function for a proposal. This then calls the execue function on the timelock contract.
 
 ### `cancel`
 
@@ -52,7 +60,7 @@ function execute(uint proposalId) public payable
 function cancel(uint proposalId) public
 ```
 
-
+Cancels a defeated proposal.
 
 
 
@@ -62,6 +70,8 @@ function cancel(uint proposalId) public
 function getActions(uint proposalId) public view returns (address[] memory targets, uint[] memory values, string[] memory signatures, bytes[] memory calldatas)
 ```
 
+Returns the targets, signatures, values, and call data from a specific proposal.
+
 
 
 ### `getReceipt`
@@ -69,6 +79,8 @@ function getActions(uint proposalId) public view returns (address[] memory targe
 ```text
 function getReceipt(uint proposalId, address voter) public view returns (Receipt memory)
 ```
+
+Gets a receipt for voting on a proposal.
 
 
 
@@ -78,6 +90,8 @@ function getReceipt(uint proposalId, address voter) public view returns (Receipt
 function state(uint proposalId) public
 ```
 
+Returns the current state of a proposal.
+
 
 
 ### `castVote`
@@ -85,6 +99,8 @@ function state(uint proposalId) public
 ```text
 function castVote(uint proposalId, bool support)
 ```
+
+Lets a user vote on a proposal.
 
 
 
@@ -94,6 +110,8 @@ function castVote(uint proposalId, bool support)
 function castVoteBySig(uint proposalId, bool support, uint8 v, bytes32 r, bytes32 s) public
 ```
 
+Lets a user vote on a proposal by signature.
+
 
 
 ### `_castVote`
@@ -101,6 +119,8 @@ function castVoteBySig(uint proposalId, bool support, uint8 v, bytes32 r, bytes3
 ```text
 function _castVote(address voter, uint proposalId, bool support) internal
 ```
+
+Internal function to cast a vote.
 
 
 
@@ -113,4 +133,8 @@ function GovernorMint(
     uint votingtime_
 ) public
 ```
+
+Factory function to mint a new governor alpha contract instance.
+
+
 

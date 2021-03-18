@@ -10,7 +10,9 @@ This contract creates new Alchemy Contracts which wrap NFT tokens into ERC20 tok
 function init(address governorFactory, uint votinginit, address timelockFactory, uint256 timelockinit) external
 ```
 
+This function initializes a new DAO for an NFT. It takes the address of the GovernorAlphaFactory and the TimelockFactory and the times for the voting period and also the timelock period.
 
+After the function is run, a new DAO is fully functional and ready to use.
 
 
 
@@ -20,7 +22,7 @@ function init(address governorFactory, uint votinginit, address timelockFactory,
 function _burn(uint256 amount) internal
 ```
 
-
+Internal function to burn amount x from the total supply.
 
 
 
@@ -30,7 +32,7 @@ function _burn(uint256 amount) internal
 function burnForETH() external
 ```
 
-
+This function can be called from each holder of the DAO token. If the Alchemy contract has an ETH balance the burner will get an adequate amount of ETH from the balancer and burns their DAO tokens for this event.
 
 
 
@@ -40,17 +42,23 @@ function burnForETH() external
 function Buyshares(uint256 amount) external 
 ```
 
-
+This function allows anyone to buy shares from the DAO contract. These shares have to be issued from the DAO before.
 
 
 
 ### `buyout`
 
 ```text
-function buyout() external
+function buyout() external payable
 ```
 
+This function can be called by anyone by sending the buyout price in terms of ETH to the contract function. This will trigger the buyout process and burn the shares of the buyer if he has some.
 
+The buyout price will also decrease if the buyer is a shareholder of the DAO, and so he will get a discount.
+
+Finally, all the NFTs in the DAO will be transferred to the buyer.
+
+Also, a 0.5% fee from the buyout price is then sent from the Alchemy Contract to the Alchemy Router and split amongst the treasury and the Staking Pool.
 
 
 
@@ -60,7 +68,7 @@ function buyout() external
 function burnSharesForSale(uint256 amount) onlyTimeLock external 
 ```
 
-
+This function will decrease the number of shares for sale in the DAO. Can only be called by the Timelock.
 
 
 
@@ -70,7 +78,7 @@ function burnSharesForSale(uint256 amount) onlyTimeLock external
 function mintSharesForSale(uint256 amount) onlyTimeLock external
 ```
 
-
+This function will increase the number of shares for sale in the DAO. Can only be called by the Timelock.
 
 
 
@@ -80,7 +88,7 @@ function mintSharesForSale(uint256 amount) onlyTimeLock external
 function changeBuyoutPrice(uint256 amount) onlyTimeLock external
 ```
 
-
+This function will change the buyout price for the DAO. Can only be called by the Timelock.
 
 
 
@@ -90,7 +98,7 @@ function changeBuyoutPrice(uint256 amount) onlyTimeLock external
 function setNftSale(uint256 nftarrayid, uint256 price, bool sale) onlyTimeLock external 
 ```
 
-
+This function will set a specific NFT in the DAO on sale, so it can be bought separately. Can only be called by the Timelock.
 
 
 
@@ -100,7 +108,9 @@ function setNftSale(uint256 nftarrayid, uint256 price, bool sale) onlyTimeLock e
 function buySingleNft(uint256 nftarrayid) external
 ```
 
+This function is used to buy a single NFT from the DAO. The NFT must have been set on sale before. 
 
+After the sale, the NFT is then transferred from the contract to the buyer and a 0.5% fee of the price is sent to the Alchemy Router.
 
 
 

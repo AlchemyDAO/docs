@@ -10,7 +10,7 @@ This contract lets the Alchemy Contract set up its own Time Lock instance to exe
 function setDelay(uint delay_) public
 ```
 
-
+This function is used to set a new delay when executing the contract calls.
 
 
 
@@ -20,7 +20,7 @@ function setDelay(uint delay_) public
 function acceptAdmin() public
 ```
 
-
+A function used to accept a new admin for the timelock.
 
 
 
@@ -30,7 +30,7 @@ function acceptAdmin() public
 function setPendingAdmin(address pendingAdmin_) public
 ```
 
-
+A function to set a new pending admin for the timelock contract.
 
 
 
@@ -40,7 +40,7 @@ function setPendingAdmin(address pendingAdmin_) public
 function queueTransaction(address target, uint value, string memory signature, bytes memory data, uint eta) public
 ```
 
-
+This function is used to queue a new transaction from the governor contract.
 
 
 
@@ -50,7 +50,7 @@ function queueTransaction(address target, uint value, string memory signature, b
 function cancelTransaction(address target, uint value, string memory signature, bytes memory data, uint eta)
 ```
 
-
+This function is used to cancel a transaction.
 
 
 
@@ -60,7 +60,7 @@ function cancelTransaction(address target, uint value, string memory signature, 
 function executeTransaction(address target, uint value, string memory signature, bytes memory data, uint eta) public
 ```
 
-
+This function is used to execute a transaction.
 
 
 
@@ -70,7 +70,7 @@ function executeTransaction(address target, uint value, string memory signature,
 function getBlockTimestamp() internal
 ```
 
-
+A function used to get the current Block Timestamp.
 
 
 
@@ -83,5 +83,5 @@ function TimelockMint(
 ) external
 ```
 
-
+The minting which mints a new Timelock contract instance.
 

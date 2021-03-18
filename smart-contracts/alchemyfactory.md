@@ -120,7 +120,7 @@ After the sale, the NFT is then transferred from the contract to the buyer and a
 function addNft(address new_nft, uint256 tokenid) onlyTimeLock external
 ```
 
-
+This function adds a specific NFT to the DAOs NFT treasury array. Can only be called by the Timelock.
 
 
 
@@ -130,7 +130,7 @@ function addNft(address new_nft, uint256 tokenid) onlyTimeLock external
 function returnNft() onlyTimeLock external 
 ```
 
-
+This function returns the original NFT to the owner. Can only be called by the Timelock.
 
 
 
@@ -140,7 +140,7 @@ function returnNft() onlyTimeLock external
 function executeTransaction(address target, uint256 value, string memory signature, bytes memory data) onlyTimeLock external
 ```
 
-
+This function can execute any contract call. Can only be called by the Timelock.
 
 
 
@@ -150,7 +150,7 @@ function executeTransaction(address target, uint256 value, string memory signatu
 function getCurrentVotes(address account) external
 ```
 
-
+This function is used to get the current votes of an address based on the timestamp.
 
 
 
@@ -160,7 +160,7 @@ function getCurrentVotes(address account) external
 function delegate(address delegatee) public
 ```
 
-
+This function is used to delegate votingpower to an address.
 
 
 
@@ -170,7 +170,7 @@ function delegate(address delegatee) public
 function getPriorVotes(address account, uint blockNumber) public 
 ```
 
-
+This function is used to determine the prior votes of an address.
 
 
 
@@ -180,7 +180,7 @@ function getPriorVotes(address account, uint blockNumber) public
 function _delegate(address delegator, address delegatee) internal
 ```
 
-
+Internal function to set the delegatee.
 
 
 
@@ -190,7 +190,7 @@ function _delegate(address delegator, address delegatee) internal
 function _moveDelegates(address srcRep, address dstRep, uint256 amount) internal
 ```
 
-
+Internal function to move delegate votes to another address.
 
 
 
@@ -200,7 +200,7 @@ function _moveDelegates(address srcRep, address dstRep, uint256 amount) internal
 function _writeCheckpoint(address delegatee, uint32 nCheckpoints, uint256 oldVotes, uint256 newVotes) internal 
 ```
 
-
+Internal function to write a snapshot of current votes for later processing.
 
 
 
@@ -210,7 +210,7 @@ function _writeCheckpoint(address delegatee, uint32 nCheckpoints, uint256 oldVot
 function distributeAlc(uint amount) internal
 ```
 
-
+A function used to distribute the ALCH token amongst the community → people who mint an Alchemy contract.
 
 
 
@@ -228,7 +228,7 @@ function NFTDAOMint(
 ) public
 ```
 
-
+Minting function for a new Alchemy contract.
 
 
 
@@ -238,7 +238,7 @@ function NFTDAOMint(
 function newFactoryOwner(address payable newOwner) external
 ```
 
-
+A function used to change the factory owner of the AlchemyFactory.
 
 
 
@@ -247,4 +247,6 @@ function newFactoryOwner(address payable newOwner) external
 ```text
 function getFactoryOwner() public 
 ```
+
+View function to get the current owner of the AlchemyFactory.
 

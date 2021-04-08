@@ -25,7 +25,13 @@
 * [Vesting Implementation](https://etherscan.io/address/0x29fE35491ca8e01f8fd3120cDc38A8487d5A4017#code)
 * [Vesting Factory](https://etherscan.io/address/0xb63881f0Be29506B28386781C8603910396C75E9#code)
 
+### Dutch Auction
 
+* [Dutch Auction Implementation](https://etherscan.io/address/0x9b58655d40150fbf99de182199d37b345f23029b#code)
+* [Dutch Auction Factory](https://etherscan.io/address/0x76a8afd02b61cdfe79eb1d62e9c3a4bde157212d#code)
 
+### Minty NFT Minter
 
+* [Minty Implementation](https://etherscan.io/address/0x404469fb8e282458adf400c0975bcd2fefbf7469#code)
+* [Minty Factory](https://etherscan.io/address/0x1c8c9fcf66d3e899a1039da8c07438c00617f0d5#code)
 

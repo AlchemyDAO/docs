@@ -27,7 +27,7 @@
 
 ### Dutch Auction
 
-* [Dutch Auction Implementation](https://etherscan.io/address/0x9b58655d40150fbf99de182199d37b345f23029b#code)
+* [Dutch Auction Implementation](https://etherscan.io/address/0x620e8e7d2cbc18a4c32bb9a1b5a9e23164c69f2b#code)
 * [Dutch Auction Factory](https://etherscan.io/address/0x76a8afd02b61cdfe79eb1d62e9c3a4bde157212d#code)
 
 ### Minty NFT Minter

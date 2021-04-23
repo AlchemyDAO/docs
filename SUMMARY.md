@@ -9,6 +9,7 @@
 * [Earn Staking Rewards](protocol/earn-staking-rewards.md)
 * [Token Distribution](protocol/token-distribution.md)
 * [Deployments](protocol/deployments.md)
+* [Dapps](protocol/dapps.md)
 
 ## Smart Contracts
 

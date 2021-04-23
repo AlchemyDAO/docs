@@ -20,4 +20,6 @@
 * [StakingRewards](smart-contracts/stakingrewards.md)
 * [IAlchemyFactory](smart-contracts/ialchemyfactory.md)
 * [IStakingRewards](smart-contracts/istakingrewards.md)
+* [DutchAuctionFactory](smart-contracts/dutchauctionfactory.md)
+* [DutchAuction](smart-contracts/dutchauction.md)
 

@@ -3,7 +3,7 @@
 ### Governance
 
 * [ALCH Token](https://etherscan.io/address/0x0000A1c00009A619684135B824Ba02f7FbF3A572#code)
-* [Alchemy Governor Alpha](https://etherscan.io/address/0x9789D57093c66AF78C1AEb5CE19A10f963673f87#code)
+* [Alchemy Governor Alpha](https://etherscan.io/address/0x667d32699F8bFB265e498B385193B273af743F95#code)
 * [Alchemy Timelock](https://etherscan.io/address/0xCA2b3CF3989e70813719ac7703daF4B14f46b377#code)
 
 ### Alchemy Implementations

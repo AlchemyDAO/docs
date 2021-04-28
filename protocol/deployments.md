@@ -46,6 +46,10 @@
 * [Alchemy Factory](https://explorer-mainnet.maticvigil.com/address/0xA3644bF1A29A508767E6b62BEec19b4fCD863129/transactions)
 * [Alchemy Router](https://explorer-mainnet.maticvigil.com/address/0xdc2778E19C7F32D2Cf0c4c90B705Fb702Aa94150/transactions)
 * [MATIC Rewards Pool](https://explorer-mainnet.maticvigil.com/address/0x81692F5647ef63766F3A521114bc9ED094eC23cE/transactions)
+* [Dutch Auction Implementation](https://explorer-mainnet.maticvigil.com/address/0x29fE35491ca8e01f8fd3120cDc38A8487d5A4017/transactions)
+* [Dutch Auction Factory](https://explorer-mainnet.maticvigil.com/address/0xb63881f0Be29506B28386781C8603910396C75E9/transactions)
+* [Minty Implementation](https://explorer-mainnet.maticvigil.com/address/0x82E025bce8f4707b7AD406c036E5b8273389612B/transactions)
+* [Minty Factory](https://explorer-mainnet.maticvigil.com/address/0xe02eF7BeAc8c723a17545e0F9F2774Caf13466fc/transactions)
 
 
 

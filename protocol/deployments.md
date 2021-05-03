@@ -40,10 +40,10 @@
 ## Polygon \(Matic\)
 
 * [ALCH Token](https://explorer-mainnet.maticvigil.com/address/0x87B078cf94B188EFB9D2208cAE47A66ea7FEa09A/transactions)
-* [Alchemy Implementation](https://explorer-mainnet.maticvigil.com/address/0x0000a1c00009a619684135b824ba02f7fbf3a572)
+* [Alchemy Implementation](https://explorer-mainnet.maticvigil.com/address/0xbd6D07dFaDEA0c9d47f26EA99d1cc4f754B06dE4/transactions)
 * [Governor Implementation](https://explorer-mainnet.maticvigil.com/address/0xb8ea9249D45681edc5cE730478132417697f2097/transactions)
 * [Timelock Implementation](https://explorer-mainnet.maticvigil.com/address/0x32c1970560a604bcFF4c4C82AcF9F47161b5f428/transactions)
-* [Alchemy Factory](https://explorer-mainnet.maticvigil.com/address/0xA3644bF1A29A508767E6b62BEec19b4fCD863129/transactions)
+* [Alchemy Factory](https://explorer-mainnet.maticvigil.com/address/0x6CEF09dfed4e5467323a1b5f93f24F67dCE39602/transactions)
 * [Alchemy Router](https://explorer-mainnet.maticvigil.com/address/0xdc2778E19C7F32D2Cf0c4c90B705Fb702Aa94150/transactions)
 * [MATIC Rewards Pool](https://explorer-mainnet.maticvigil.com/address/0x81692F5647ef63766F3A521114bc9ED094eC23cE/transactions)
 * [Dutch Auction Implementation](https://explorer-mainnet.maticvigil.com/address/0x29fE35491ca8e01f8fd3120cDc38A8487d5A4017/transactions)

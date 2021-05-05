@@ -50,6 +50,9 @@
 * [Dutch Auction Factory](https://explorer-mainnet.maticvigil.com/address/0xb63881f0Be29506B28386781C8603910396C75E9/transactions)
 * [Minty Implementation](https://explorer-mainnet.maticvigil.com/address/0x82E025bce8f4707b7AD406c036E5b8273389612B/transactions)
 * [Minty Factory](https://explorer-mainnet.maticvigil.com/address/0xe02eF7BeAc8c723a17545e0F9F2774Caf13466fc/transactions)
+* [StakingRewardsImplementation](https://explorer-mainnet.maticvigil.com/address/0x48a9B58FbDe217aA3753011cFe022EF2c7BC057c/transactions)
+* [StakingRewardsFactory](https://explorer-mainnet.maticvigil.com/address/0xB4e6B964519795928c0eCe6434fD9bB8f3762dCE/transactions)
+* [LP Rewards Pool](https://explorer-mainnet.maticvigil.com/address/0x12d916951a9da2763b55972364b0Bd0B726E2F43/transactions)
 
 ## ETH Rinkeby Testnet
 
